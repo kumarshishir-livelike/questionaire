@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script src="https://websdk-qa.livelikecdn.com/livelike.umd.dev.js"></script>
+    <script src="./logic.js"></script>
+    <link rel="stylesheet" href="./mystyle.css" />
+  </head>
+
+  <body>
+    <div class="bg"></div>
+    <header class="app-header">
+      <div class="app-header-wrap">
+        <img
+          src="https://files.readme.io/762068a-small-LiveLike_Dark_tight.png"
+          alt="Livelike-Logo"
+        />
+        <h2>Multi-branch Questionnaire</h2>
+      </div>
+    </header>
+    <div class="app-container">
+      <div class="column">
+        <div class="widget-wrap">
+          <livelike-widgets
+            programid="e7df6164-bbc9-47d0-b7e8-ad4c86fa2e26"
+            mode="customWidgetMode"
+          >
+          <div class="loading-question" slot="widgets-loading">Loading Questionnaire</div>
+        </livelike-widgets>
+        </div>
+        <button id="nextButton" disabled>Next Question</button>
+      </div>
+    </div>
+    <script>
+      LiveLike.init({
+        clientId: "pnODbVXg0UI80s0l2aH5Y7FOuGbftoAdSNqpdvo6",
+        endpoint: "https://cf-blast-qa.livelikecdn.com/api/v1/",
+      });
+    </script>
+  </body>
+</html>

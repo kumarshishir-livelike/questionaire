@@ -1,0 +1,121 @@
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  overflow: auto;
+}
+
+.bg {
+  position: absolute;
+  background-image: url("https://www.sightsavers.org/wp-content/uploads/2020/06/Quiz-Hero-Image_V01.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+}
+.app-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.app-header-wrap {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  padding: 1rem;
+}
+img {
+  width: 200px;
+  margin: 0 auto;
+}
+.app-container {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.widget-wrap {
+  height: 150px;
+}
+livelike-widgets {
+  width: 700px;
+}
+#nextButton {
+  margin: 2rem auto;
+  width: 200px;
+  background: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  z-index: 2;
+}
+#nextButton:hover {
+  cursor: pointer;
+}
+#nextButton[disabled] {
+  opacity: 0.5;
+}
+#nextButton[disabled]:hover {
+  cursor: default;
+}
+
+.animation-container {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  height: 100%;
+  top: 0;
+  transform: translate(-50%, 0);
+  z-index: 1000;
+  max-width: 100%;
+}
+.animation-container img{
+  height:100%; width: auto;
+}
+.try-again-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 15;
+}
+.try-again-wrap {
+  transform: translate(50%, -50%);
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.try-again-wrap #restartButton {
+  margin: 1rem auto;
+  width: 200px;
+  background: #162e70;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  z-index: 2;
+}
+
+.try-again-wrap #restartButton:hover {
+  cursor: pointer;
+}
+
+.loading-question {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}

@@ -1,0 +1,28 @@
+# who is your favorite player?[9c90e292-be08-4563-921f-ad0e463e24cd]
+* A
+* B
+
+    A.A: what is the player's nickname?[53ccba1b-d9dc-48b9-90bf-6c87401da674]
+    * A1
+    * A2
+
+    A.B: Which country is he from?[98d389d2-9894-4c3a-bd03-89766e8b6b99]
+    * A3
+    * A4
+
+    A.C: When did he start his career?[24d27f6d-265e-4fc9-b95f-391c8214fb01]
+    * A5
+    * A6
+
+
+B: what is the player's nickname?[2365a302-3696-4026-867f-22e85c1696e2]
+* B1
+* B2
+
+B: Which country is he from?[0cf2e0da-510f-4404-93a0-4bae8795590b]
+* B3
+* B4
+
+B: When did he start his career?[18c034d6-ff75-42bb-8458-8085d5167f16]
+* B5
+* B6
